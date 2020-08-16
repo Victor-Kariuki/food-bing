@@ -20,18 +20,27 @@ AppBar homeAppBar(BuildContext context) {
         children: [
           TextSpan(
             text: "Food",
-            style: TextStyle(color: kSecondaryColor),
+            style: TextStyle(
+              color: kSecondaryColor,
+              fontFamily: "Proxima Nova",
+            ),
           ),
           TextSpan(
             text: "Bing",
-            style: TextStyle(color: kPrimaryColor),
+            style: TextStyle(
+              color: kPrimaryColor,
+              fontFamily: "Proxima Nova",
+            ),
           ),
         ],
       ),
     ),
     actions: [
       IconButton(
-        icon: SvgPicture.asset("assets/icons/notification.svg"),
+        icon: SvgPicture.asset(
+          "assets/icons/notification.svg",
+          color: kPrimaryColor,
+        ),
         onPressed: () {},
       ),
     ],

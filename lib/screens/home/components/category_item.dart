@@ -25,10 +25,11 @@ class CategoryItem extends StatelessWidget {
               style: isActive
                   ? TextStyle(
                       color: kTextColor,
+                      fontSize: 16.0,
                       fontWeight: FontWeight.bold,
                     )
                   : TextStyle(
-                      fontSize: 12.0,
+                      fontSize: 14.0,
                     ),
             ),
             if (isActive)

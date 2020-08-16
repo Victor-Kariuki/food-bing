@@ -65,6 +65,6 @@ flutter:
   fonts:
     - family: Proxima Nova
       fonts:
-        - asset: fonts/Proxima_Nova_Regular.ttf
+        - asset: assets/fonts/Proxima_Nova_Regular.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
