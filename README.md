@@ -13,4 +13,4 @@ An on-demand food devlivery flutter UI.
 
 ### Author 
 
-- [Victor Kariuki](mailto: karizvic@gmail.com)
+- Victor Kariuki
